@@ -7,7 +7,8 @@ public class trails {
     public static void main(String[] args) {
         LoadTrails loader = new LoadTrails();
 
-        List<String> lines = loader.readFile("/Users/lucacoletti/Desktop/Java/lists.txt");
+        //replace with text file location on Computer
+        List<String> lines = loader.readFile("lists.txt");
 
         for (String line : lines) {
             System.out.println(line);
